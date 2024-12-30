@@ -1,0 +1,265 @@
+.page-content {
+    display: none;
+}
+
+.cherry-cream-soda-regular {
+    font-family: "Cherry Cream Soda", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    background-color: #f0f8ff;
+    margin: 0px;
+}
+.header {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+
+}
+.cpclogo {
+    width:fit-content;
+    height: 75%;
+
+}
+.heading {
+    margin : 55px
+}
+h2 {
+    text-align: center;
+}
+hr, #top {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(17, 109, 17);
+    margin-bottom: 0%;
+}
+#tabbar {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    /* border-color: rgb(17, 109, 17); */
+    border: rgb(17, 109, 17), solid, 2px;
+    background-color: rgba(146, 203, 253, .50); 
+        font-family: "Cherry Cream Soda", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.tabbutton {
+    margin-top: 0%;
+    border-width: 2px;
+    border-color: rgb(17, 109, 17);
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.button:hover {
+    background-color: rgb(17, 109, 17);
+    color: aliceblue;
+}
+.introp {
+    display: block;
+    font-size: 20px;
+}
+.pickleball {
+    padding-left: 40px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+  }
+  
+  .image-container #groupImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 90%;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    text-shadow: 0 0 3px black;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 175px;
+    text-align:center;
+  }
+  .overlay-text-events {
+    position: absolute;
+    text-shadow: 0 0 3px black;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 175px;
+    text-align:center;
+  }
+.body1 {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+.body1 h2 {
+    font-size: 50px;
+}
+.lists {
+    display: grid;
+    grid-template-columns: 100px auto auto 100px;
+}
+
+
+.lists ul {
+    font-size: 30px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px 10px;
+    list-style: none;
+}
+
+.lists .listLeft {
+    grid-column: 2;
+}
+
+.lists .listRight {
+    grid-column: 3;
+}
+
+.lists ul li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.lists ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(pickleballVector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.listsThreeColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.listsThreeColumn img {
+    width: auto;
+    height: 200px;
+    justify-self: center;
+    border-radius: 20px;
+    border: rgb(17, 109, 17), solid, 2px;
+}
+
+.listsThreeColumn .imgEvent1 {
+    grid-column: 1;
+    justify-self: end;
+}
+
+.listsThreeColumn .imgEvent2 {
+    grid-column: 3;
+    justify-self: start;
+}
+
+.listsThreeColumn ul {
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.listsThreeColumn .listCenter {
+    grid-column: 2;
+    justify-self: center;
+}
+.listsThreeColumn ul li {
+    position: relative;
+    padding-left: 40px;
+}
+.listsThreeColumn ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(pickleballVector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: rgb(233, 232, 232);
+}
+#closingDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+#closingDiv h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.hours-section {
+    grid-column: 1;
+    justify-self: center;
+}
+
+.info-section {
+    grid-column: 2;
+    justify-self: center;
+}
+
+.hours-section h3
+.info-section h3 {
+    margin-bottom: 5px;
+}
+
+.hours-section ul {
+    list-style-type:circle;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.location .contact {
+    margin-bottom: 5px;
+}
+.location .contact p {
+    font-size: 20px;
+}
+
+#socialTags {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+#socialTags .facebookImg {
+    height: 30px;
+    width: 30px;
+}
+#socialTags a:hover {
+    color: white;
+}
